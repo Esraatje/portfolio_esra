@@ -1,0 +1,54 @@
+h1 {
+    font-family: poppins;
+    padding-left: 1em;
+    color: #2D2D2B;
+}
+
+nav a {
+    float: right;
+    margin-right: 1em;
+}
+
+footer {
+    background-color: #245EA9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 30em;
+}
+
+.instagram {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+.linkedin {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+p {
+    font-family: poppins;
+    text-align: center;
+}
+
+a {
+    font-family: poppins;
+    margin: 10px;
+    text-decoration: none;
+    color: #2D2D2B;
+}
+
+.cv {
+    text-decoration: underline;
+    color: #DFA23C;
+}

@@ -1,0 +1,98 @@
+body {
+    background-image: url("achtergrond.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    @media only screen and (max-width: 767px)
+}
+
+h1 {
+    font-family: poppins;
+    padding-left: 1em;
+    color: #2D2D2B;
+}
+
+img {
+    width: 15em;
+    height: 15em;
+}
+
+.instagram {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+.linkedin {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+}
+
+p {
+    font-family: poppins;
+    text-align: center;
+}
+
+.portfolio {
+    font-family: poppins;
+    background-color: #245EA9;
+    padding: 1em;
+    border-radius: 1em;
+    color: white;
+}
+
+.contact {
+    font-family: poppins;
+    background-color: #DFA23C;
+    padding: 1em;
+    border-radius: 1em;
+    color: white;
+}
+
+.welkomtekst {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+}
+
+.buttons {
+    display: flex;
+    justify-content: right;
+}
+
+a {
+    font-family: poppins;
+    margin: 10px;
+    text-decoration: none;
+    color: #2D2D2B;
+}
+
+.home {
+    color: #DFA23C;
+    text-decoration: underline;
+}
+
+nav a {
+    float: right;
+    margin-right: 1em;
+}
+
+.article1 {
+    flex-direction: row;
+    justify-content: right;
+    align-items: right;
+}
+
+footer {
+    background-color: #245EA9;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
